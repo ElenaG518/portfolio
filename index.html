@@ -5,7 +5,7 @@
     <title>HTML wireframe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Quattrocento|Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento|Libre+Baskerville:700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="main.css">
 
@@ -18,7 +18,7 @@
         <header role="banner">
             <h1>Elena Granados</h1>
             <p>Full Stack Web Developer</p>
-            <img src="images/image.jpg"><img>
+            <!-- <img src="images/image.jpg"><img> -->
             <nav role="navigation" class="top-nav">
                 <ul class="top-nav-ul">
                     <li><a href="#about">About</a></li>
@@ -36,20 +36,36 @@
 
             <!-- Introduction -->
             <section id="about" class="about">
-                <p>
-                    Hello, I'm Elena Granados!
-                    <br> I’m a fullstack developer with a background in finance, currently living in west Los Angeles. I enjoy technology, music, nature, sustainability, and letting my mind imagine ways in which we can create a better world. I enjoy the
-                    potential that web development has in creating unique solutions to everyday problems in an easy, convenient, an approachable way. There are many challenges to solve, and I want to be part of the solution!
-                </p>
-                <div>
+                <div class="flex-div info">
+                    <p>
+                        Hello, I'm Elena Granados!
+                        <br> I’m a fullstack developer with a background in finance, currently living in west Los Angeles. I enjoy technology, music, nature, sustainability, and letting my mind imagine ways in which we can create a better world. I enjoy
+                        the potential that web development has in creating unique solutions to everyday problems in an easy, convenient, an approachable way. There are many challenges to solve, and I want to be part of the solution!
+                    </p>
+                </div>
+                <div class="flex-div pic">
+
                     <img src="images/image.jpg">
                 </div>
 
             </section>
 
             <!-- WebDev Section -->
-            <section id="first">
-                Web Dev Projects
+            <section id="trendlier" class="webdev">
+                <div class="sec-title">
+                    <h1>Trendlier</h1>
+                </div>
+                <div class="flex-div info">
+                    <p>
+                        Trendlier is an app that helps you keep track of the hottest trending electronics, based on customer views of each item on the Best Buy website. You can search trends by category, and save your favorites to you wishlist. With Trendlier, you will always
+                        be on top of the latest gadgets!
+                    </p>
+                </div>
+                <div class="flex-div pic">
+
+                    <img src="images/image.jpg">
+                </div>
+
             </section>
             <!-- WebDev Section -->
             <section id="first" class="main special">
@@ -77,6 +93,7 @@
                 </li>
                 <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                 <li><a href="#"><i class="fab fa-github"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
 
             </ul>
 
