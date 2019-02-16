@@ -154,8 +154,8 @@ section {
     text-align: center;
 }
 
-.pic img {
-    margin: 12%;
+.mug {
+    margin: 8% auto 4%;
     width: 75%;
 }
 
@@ -185,7 +185,7 @@ footer {
 
 /* MEDIA STYLING */
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1200px) {
     section {
         flex-wrap: wrap;
     }
