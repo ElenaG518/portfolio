@@ -17,13 +17,28 @@ body {
 /* HEADER */
 
 header {
-    padding: 12% 0 0;
+    padding: 8% 0 0;
     text-align: center;
     color: #4a4777;
     font-family: 'Libre Baskerville', serif;
 }
 
-footer,
+header h1 {
+    font-size: 3em;
+    text-shadow: .1em 0.03em lightgray;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.header-img {
+    max-width: 100px;
+    margin-right: 25px;
+    border-radius: 100%;
+}
+
 .webdev {
     padding: 12% 0 0;
     text-align: center;
@@ -38,15 +53,6 @@ footer,
     right: 0;
     margin: 0 3%;
 }
-
-
-/* .title {
-    background-image: url("images/sky.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 12%;
-    padding-top: 10%;
-} */
 
 .hidden {
     display: none;
@@ -102,7 +108,6 @@ main {
     color: #636363;
     font-family: 'Quattrocento', serif;
     text-align: left;
-    /* border-radius: 10px; */
 }
 
 section {
@@ -112,11 +117,14 @@ section {
     justify-content: space-around;
     min-height: 200px;
     padding: 6% 3%;
-    /* border-radius: 10px; */
 }
 
 .scrolled {
-    padding-top: 250px;
+    padding-top: 325px;
+}
+
+.scrolled-less {
+    padding-top: 125px;
 }
 
 .sec-title {
@@ -147,39 +155,72 @@ section {
 
 .mug {
     max-width: 300px;
-    margin: auto;
+    margin: 8% auto 4%;
+}
+
+.round {
+    border-radius: 100%;
 }
 
 .pic {
     text-align: center;
 }
 
-.mug {
-    margin: 8% auto 4%;
-    width: 75%;
+.webdev-link-img:hover {
+    box-shadow: 2px 2px 14px black;
+}
+
+.large-icon {
+    padding-top: 25px;
+    font-size: 45px;
+    text-decoration: none;
+    color: #4a4777;
+}
+
+.large-icon:hover {
+    color: rgb(184, 190, 196);
 }
 
 
 /* FOOTER */
 
 footer {
-    background-color: hsla(0, 0, 0, .5%);
     padding: 12% 0;
+    text-align: center;
+    color: #35335a;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 60px;
 }
 
 .icons {
     cursor: default;
     list-style: none;
     padding-top: 20px;
+    padding-left: 0;
+    font-size: 40px;
 }
 
 .icons li {
     display: inline-block;
-    padding: 0 10px 0 0;
+    padding: 0 14px;
+    background-color: #d3d3d3;
+    border: 2px solid white;
+    border-radius: 100%;
 }
 
-.icon {
+.icons li:hover {
+    background-color: #afadd1e0;
+}
+
+.icon,
+.email {
     text-decoration: none;
+    color: #4a4777;
+}
+
+.email:hover {
+    text-decoration: underline;
+    color: #35335a;
 }
 
 
@@ -205,6 +246,9 @@ footer {
 @media all and (max-width: 620px) {
     .mug {
         width: 280px;
+    }
+    header h1 {
+        font-size: 2em;
     }
 }
 
@@ -238,9 +282,8 @@ footer {
     }
     .top-nav,
     main,
-    .title,
-    .lighten {
-        margin: auto 3%;
+    .title {
+        margin: auto 0;
     }
 }
 
@@ -252,11 +295,5 @@ footer {
         font-size: 14px;
         flex: 1 1 33%;
         padding: 5px 0;
-    }
-    .top-nav,
-    main,
-    .title,
-    .lighten {
-        margin: auto;
     }
 }
