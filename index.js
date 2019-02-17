@@ -18,19 +18,36 @@ $(window).scroll(function() {
 
 $(function() {
 
-$('a[href="#about"]').click(function() {
-    console.log("about has been clicked");
-    $('#about').addClass('scrolled');
-});
-$('a[href="#webDev"]').click(function() {
-    console.log("webdev has been clicked");
-    $('#webDev').addClass('scrolled-less');
-});
-$('a[href="#contact"]').click(function() {
+  $('a[href="#about"]').click(function() {
+      console.log("about has been clicked");
+      $('#about').addClass('scrolled');
+      $('a[href="#about"]').addClass("active");
+      $('a[href="#webDev"]').removeClass('active');
+      $('a[href="#skills"]').removeClass('active');
+      $('a[href="#contact"]').removeClass('active');
+  });
+  $('a[href="#webDev"]').click(function() {
+      console.log("webdev has been clicked");
+      $('#webDev').addClass('scrolled-less');
+      $('a[href="#webDev"]').addClass("active");
+      $('a[href="#about"]').removeClass('active');
+      $('a[href="#skills"]').removeClass('active');
+      $('a[href="#contact"]').removeClass('active');
+  });
+  $('a[href="#skills"]').click(function() {
+    console.log("skills has been clicked");
+    $('#skills').addClass('scrolled-less');
+    $('a[href="#skills"]').addClass("active");
+      $('a[href="#webDev"]').removeClass('active');
+      $('a[href="#contact"]').removeClass('active');
+      $('a[href="#about"]').removeClass('active');
+  });
+  $('a[href="#contact"]').click(function() {
     console.log("contact has been clicked");
-});
-$('a[href="#skills"]').click(function() {
-  console.log("skills has been clicked");
-  $('#skills').addClass('scrolled');
-});
+    $('#contact').addClass('scrolled-less');
+    $('a[href="#contact"]').addClass("active");
+    $('a[href="#webDev"]').removeClass('active');
+    $('a[href="#skills"]').removeClass('active');
+    $('a[href="#about"]').removeClass('active');
+  });
 })
