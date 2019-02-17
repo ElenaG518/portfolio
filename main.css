@@ -9,7 +9,7 @@ body {
     text-align: center;
     line-height: 1.5;
     background-image: linear-gradient(#caddfd, #beefec, lavender);
-    /* background-color: #caddfd; */
+    background-color: #caddfd;
     color: rgba(255, 255, 255, 0.65);
 }
 
