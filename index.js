@@ -28,7 +28,9 @@ $('a[href="#webDev"]').click(function() {
 });
 $('a[href="#contact"]').click(function() {
     console.log("contact has been clicked");
-    
 });
-
+$('a[href="#skills"]').click(function() {
+  console.log("skills has been clicked");
+  $('#skills').addClass('scrolled');
+});
 })
