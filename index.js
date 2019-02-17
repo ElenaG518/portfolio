@@ -36,7 +36,7 @@ $(function() {
   });
   $('a[href="#skills"]').click(function() {
     console.log("skills has been clicked");
-    $('#skills').addClass('scrolled-less');
+    // $('#skills').addClass('scrolled-less');
     $('a[href="#skills"]').addClass("active");
       $('a[href="#webDev"]').removeClass('active');
       $('a[href="#contact"]').removeClass('active');

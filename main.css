@@ -354,10 +354,13 @@ footer h3 {
     body {
         font-size: 16px;
     }
-    .top-nav-ul li {
-        font-size: 14px;
-        flex: 1 1 33%;
+    .top-nav-ul a {
+        /* font-size: 16px; */
+        /* flex: 1 1 25%; */
         padding: 5px 0;
+    }
+    .top-nav-ul a:hover {
+        padding: 3px 9px;
     }
     header {
         font-size: 80%;
@@ -380,9 +383,10 @@ footer h3 {
     body {
         font-size: 14px;
     }
-    .top-nav-ul li {
-        font-size: 14px;
-        flex: 1 1 33%;
-        padding: 5px 0;
+    .top-nav-ul a {
+        padding: 5px 9px;
+    }
+    .top-nav-ul a:hover {
+        padding: 3px 9px;
     }
 }
