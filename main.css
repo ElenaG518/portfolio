@@ -110,14 +110,8 @@ main {
     text-align: left;
 }
 
-section {
-    background: white;
-    border-bottom: 1px solid lightgray;
-    display: flex;
-    justify-content: space-around;
-    min-height: 200px;
-    padding: 6% 3%;
-}
+
+/* scrolling */
 
 .scrolled {
     padding-top: 325px;
@@ -127,10 +121,21 @@ section {
     padding-top: 125px;
 }
 
+
+/* sections */
+
+section {
+    background: white;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-around;
+    min-height: 200px;
+    padding: 6% 3%;
+}
+
 .sec-title {
-    border-right: 1px solid lightgray;
     padding-right: 30px;
-    flex: 1 1 25%;
+    flex: 1 1 20%;
     text-align: center;
 }
 
@@ -144,8 +149,39 @@ section {
     font-style: italic;
 }
 
-.flex-div {
-    flex: 1 1 calc(50% - 1em);
+.border {
+    border-left: 1px solid lightgray;
+    display: flex;
+    flex: 0 1 85%;
+}
+
+.flex-div-ul {
+    border-left: 1px solid lightgray;
+    display: flex;
+    flex: 0 1 85%;
+}
+
+.pic {
+    margin: auto;
+}
+
+.flex-div-ul {
+    display: flex;
+    width: 100%;
+}
+
+.flex-div-skills {
+    flex: 1 1 calc(33% - 1em);
+}
+
+.flex-div-skills h2 {
+    text-align: center;
+}
+
+.ul-skills {
+    padding: 0;
+    list-style: none;
+    text-align: center;
 }
 
 .info {
@@ -155,15 +191,11 @@ section {
 
 .mug {
     max-width: 300px;
-    margin: 8% auto 4%;
+    margin: 15px 30px 0 0;
 }
 
 .round {
     border-radius: 100%;
-}
-
-.pic {
-    text-align: center;
 }
 
 .webdev-link-img:hover {
@@ -233,6 +265,10 @@ footer {
     .flex-div {
         flex: 1 1 calc(80% - 1em);
     }
+    .flex-div-ul {
+        display: flex;
+        width: 80%;
+    }
     .top-nav,
     main {
         margin: auto 6%;
@@ -243,6 +279,35 @@ footer {
     }
 }
 
+@media all and (max-width: 1000px) {
+    .border {
+        flex-wrap: wrap;
+    }
+}
+
+@media all and (max-width: 885px) {
+    .border,
+    .flex-div-ul {
+        border: 0;
+    }
+    .sec-title {
+        flex: 0 1 16%;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .flex-div-ul {
+        font-size: 80%;
+    }
+    .border,
+    .flex-div-ul {
+        border: 0;
+    }
+    .sec-title {
+        flex: 0 1 16%;
+    }
+}
+
 @media all and (max-width: 620px) {
     .mug {
         width: 280px;
@@ -250,35 +315,44 @@ footer {
     header h1 {
         font-size: 2em;
     }
+    .flex-div-ul {
+        width: 100%;
+    }
+    .skills-title {
+        border: 0;
+        margin-top: 0;
+    }
+    .top-nav-ul li {
+        font-size: 16px;
+        flex: 1 1 33%;
+        padding: 5px 0;
+    }
 }
 
 @media all and (max-width: 490px) {
-    .sec-title {
-        border: 0;
-        display: hidden;
-    }
     .flex-div {
         flex: 1 1 90%;
     }
 }
 
 @media all and (max-width: 420px) {
-    body .top-nav-ul li {
+    body {
         font-size: 16px;
-        flex: 1 1 95%;
+    }
+    .top-nav-ul li {
+        font-size: 14px;
+        flex: 1 1 33%;
         padding: 5px 0;
     }
     header {
         font-size: 80%;
     }
-    .flex-div {
+    .flex-div,
+    .flex-div-skills {
         flex: 1 1 calc(90% - 1em);
     }
     .info {
         padding: 10px 35px;
-    }
-    .sec-title {
-        border: 0;
     }
     .top-nav,
     main,
