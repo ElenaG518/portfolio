@@ -51,7 +51,7 @@ header p {
     z-index: 10;
     margin: auto 12%;
     background: rgb(255, 183, 155);
-    border: 2px outset;
+    border: 5px outset;
 }
 
 .top-nav-ul {
@@ -85,11 +85,12 @@ header p {
 /* MAIN */
 
 main {
+    border-top: 0;
     margin: auto 12%;
     color: #636363;
     font-family: 'Quattrocento', serif;
     text-align: left;
-    border: 5px outset rgb(194, 233, 248);
+    border: 5px outset;
 }
 
 
