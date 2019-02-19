@@ -4,7 +4,7 @@ List of my projects I created during the course of full stack developer at Think
 ## Screenshots
 
 Home Page View 
-![Home Page](https://github.com/ElenaG518/portfolio/images/landing.png)  
+![Home Page](https://github.com/ElenaG518/portfolio/blob/master/images/landing.png)  
 
 ## Live Link
 You can access a working prototype of the app here: https://epic-journey.herokuapp.com/
