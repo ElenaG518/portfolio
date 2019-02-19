@@ -1,18 +1,16 @@
-## My Portfolio
+## Elena Granados Portfolio
 List of my projects I created during the course of full stack developer at Thinkful  
 
-## Screenshots
+## Screenshot
 
 Home Page View 
-![Home Page](https://github.com/ElenaG518/portfolio/blob/master/images/landing.png)  
+![Landing Page](https://github.com/ElenaG518/portfolio/blob/master/images/landing.png)  
 
 ## Live Link
-You can access a working prototype of the app here: https://epic-journey.herokuapp.com/
+You can access a working prototype of the app here: https://elenag518.github.io/portfolio/
 
 ## Technology
 * Front-End: HTML5 | CSS3 | JavaScript ES6 | jQuery
-
-
 
 
 ## Responsive
