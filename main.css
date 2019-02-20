@@ -69,12 +69,12 @@ header p {
     text-decoration: none;
     color: rgb(89, 88, 88);
     padding: 12px 30px;
+    border: 2px solid transparent;
 }
 
-.active,
 .top-nav-ul a:hover,
 .top-nav-ul a:focus {
-    padding: 10px 28px;
+    /* padding: 10px 28px; */
     border: 2px solid white;
     background: #f6a68c;
     border-radius: 20px;
@@ -302,8 +302,12 @@ footer h3 {
     }
     .top-nav-ul li {
         font-size: 16px;
-        flex: 1 1 33%;
-        padding: 5px 0;
+    }
+    .top-nav-ul a {
+        padding: 15px 9px;
+    }
+    .top-nav-ul a:hover {
+        padding: 13px 9px;
     }
 }
 
@@ -319,14 +323,6 @@ footer h3 {
 @media all and (max-width: 420px) {
     body {
         font-size: 16px;
-    }
-    .top-nav-ul a {
-        /* font-size: 16px; */
-        /* flex: 1 1 25%; */
-        padding: 5px 0;
-    }
-    .top-nav-ul a:hover {
-        padding: 3px 9px;
     }
     header {
         font-size: 80%;
@@ -349,10 +345,13 @@ footer h3 {
     body {
         font-size: 14px;
     }
+    .top-nav-ul li {
+        padding: 4px 0;
+    }
     .top-nav-ul a {
-        padding: 5px 9px;
+        padding: 8px 9px;
     }
     .top-nav-ul a:hover {
-        padding: 3px 9px;
+        padding: 6px 9px;
     }
 }
