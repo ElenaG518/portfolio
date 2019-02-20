@@ -1,10 +1,10 @@
 ## Elena Granados Portfolio
-List of my projects I created during the course of full stack developer at Thinkful  
+List of projects I created during the course of full stack developer at Thinkful  
 
-## Screenshot
+## Home Page 
 
-Home Page View 
-![Landing Page](https://github.com/ElenaG518/portfolio/blob/master/images/landing.png)  
+
+![](https://github.com/ElenaG518/portfolio/blob/master/images/landing.png)  
 
 ## Live Link
 You can access a working prototype of the app here: https://elenag518.github.io/portfolio/
