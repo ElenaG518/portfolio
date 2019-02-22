@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -21,7 +23,7 @@
                 <h1>Elena Granados</h1>
                 <p>Full Stack Web Developer</p>
             </div>
-            <nav role="navigation" class="top-nav">
+            <nav role="navigation" class="top-nav" id="top">
                 <ul class="top-nav-ul">
                     <li><a href="#about">About</a></li>
                     <li><a href="#webDev">WebDev</a></li>
@@ -34,6 +36,7 @@
 
         <!-- Main -->
         <main role="main">
+            <button class="hidden scroll">top</button>
 
             <!-- Introduction -->
             <section id="about" class="scroll">
@@ -168,11 +171,14 @@
 
                         </ul>
                     </div>
+                </div>
             </section>
+
         </main>
 
         <!-- Footer -->
         <footer role="contentinfo" id="contact">
+            <a href="#top" class="up fas fa-arrow-up"><span class="hidden">top</span></a>
             <h3>Elena Granados</h3>
             <a href="mailto:elenag518@gmail.com" class="email">elenaG518@gmail.com</a>
             <ul class="icons">
@@ -183,12 +189,12 @@
                 <a href="https://www.linkedin.com/in/elena-granados-eg/" target="_blank" class="icon linkedin" aria-label="linkedin link"><i class="fab fa-linkedin-in"></i></a>
             </ul>
         </footer>
-        </div>
+    </div>
 
-        <!-- Scripts -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-        <script src="https://unpkg.com/ionicons@4.4.8/dist/ionicons.js"></script>
-        <script type="text/javascript" src="index.js"></script>
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/ionicons@4.4.8/dist/ionicons.js"></script>
+    <script type="text/javascript" src="index.js"></script>
 </body>
 
 </html>

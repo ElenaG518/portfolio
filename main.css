@@ -74,7 +74,6 @@ header p {
 
 .top-nav-ul a:hover,
 .top-nav-ul a:focus {
-    /* padding: 10px 28px; */
     border: 2px solid white;
     background: #f6a68c;
     border-radius: 20px;
@@ -190,11 +189,18 @@ section {
 /* FOOTER */
 
 footer {
-    padding: 12% 0;
+    padding: 6% 0;
     text-align: center;
     color: #35335a;
     font-family: 'Libre Baskerville', serif;
     line-height: 40px;
+}
+
+.up {
+    color: #35335a;
+    text-decoration: none;
+    padding-bottom: 100px;
+    font-size: 200%;
 }
 
 footer h3 {
@@ -230,6 +236,10 @@ footer h3 {
 .icon:hover,
 .email:hover {
     text-decoration: underline;
+    color: coral;
+}
+
+.up:hover {
     color: coral;
 }
 
