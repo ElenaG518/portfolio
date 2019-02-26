@@ -325,7 +325,7 @@ footer h3 {
         font-size: 2em;
     }
     .flex-div-ul {
-        flex: 0 1 85%;
+        flex: 0 1 100%;
     }
     .skills-title {
         border: 0;
