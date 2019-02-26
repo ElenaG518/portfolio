@@ -324,8 +324,11 @@ footer h3 {
     header h1 {
         font-size: 2em;
     }
+    .skills-container {
+        justify-content: center;
+    }
     .flex-div-ul {
-        flex: 0 1 100%;
+        flex: 0 1 95%;
     }
     .skills-title {
         border: 0;
