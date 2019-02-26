@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Quattrocento', serif;
     font-size: 20px;
@@ -98,20 +102,20 @@ main {
 section {
     background: white;
     border-bottom: 1px solid lightgray;
-    display: flex;
-    justify-content: space-around;
     min-height: 200px;
-    padding: 6% 3%;
+    padding: 12% 3% 6%;
+}
+
+.container,
+.skills-container {
+    display: flex;
+    justify-content: baseline;
 }
 
 .sec-title {
-    padding-right: 30px;
-    flex: 1 1 20%;
+    flex: 0 1 15%;
     text-align: center;
-}
-
-.sec-title h2 {
-    margin-top: 55%;
+    margin-top: 15%;
     font-size: 20px;
 }
 
@@ -123,7 +127,8 @@ section {
 .border {
     border-left: 1px solid lightgray;
     display: flex;
-    flex: 0 1 85%;
+    flex: 0 1 80%;
+    justify-content: space-evenly;
 }
 
 .flex-div-ul {
@@ -136,7 +141,16 @@ section {
     margin: auto;
 }
 
+.skills-title {
+    margin-top: 12%;
+}
+
+.skills-container {
+    flex-wrap: wrap;
+}
+
 .flex-div-ul {
+    padding: 30px 0;
     display: flex;
     width: 100%;
 }
@@ -162,7 +176,6 @@ section {
 
 .mug {
     max-width: 300px;
-    margin: 15px 30px 0 0;
     border-radius: 20px;
 }
 
@@ -174,10 +187,14 @@ section {
     box-shadow: 2px 2px 14px black;
 }
 
+.github-links {
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+}
+
 .large-icon {
-    padding-top: 25px;
-    font-size: 45px;
-    text-decoration: none;
+    padding: 25px 13px;
     color: #4a4777;
 }
 
@@ -199,8 +216,14 @@ footer {
 .up {
     color: #35335a;
     text-decoration: none;
-    padding-bottom: 100px;
     font-size: 200%;
+    bottom: 365px;
+    position: fixed;
+    right: 78px;
+}
+
+.up:hover {
+    color: coral;
 }
 
 footer h3 {
@@ -239,15 +262,11 @@ footer h3 {
     color: coral;
 }
 
-.up:hover {
-    color: coral;
-}
-
 
 /* MEDIA STYLING */
 
 @media all and (max-width: 1200px) {
-    section {
+    .container {
         flex-wrap: wrap;
     }
     .flex-div {
@@ -260,10 +279,6 @@ footer h3 {
     .top-nav,
     main {
         margin: auto 6%;
-    }
-    .sec-title {
-        flex: 0 0 15%;
-        text-align: center;
     }
 }
 
@@ -279,7 +294,16 @@ footer h3 {
         border: 0;
     }
     .sec-title {
-        flex: 0 1 16%;
+        flex: 1 1 100%;
+        margin: 0;
+    }
+    .container {
+        margin-top: 6%;
+        flex: 1 1 100%;
+    }
+    .border {
+        flex: 1 1 100%;
+        margin-top: 25px;
     }
 }
 
@@ -291,9 +315,6 @@ footer h3 {
     .flex-div-ul {
         border: 0;
     }
-    .sec-title {
-        flex: 0 1 16%;
-    }
 }
 
 @media all and (max-width: 620px) {
@@ -304,7 +325,7 @@ footer h3 {
         font-size: 2em;
     }
     .flex-div-ul {
-        width: 100%;
+        flex: 0 1 85%;
     }
     .skills-title {
         border: 0;
