@@ -3,11 +3,6 @@
     margin: 0;
 }
 
-
-/* html {
-    scroll-behavior: smooth;
-} */
-
 body {
     font-family: 'Quattrocento', serif;
     font-size: 20px;
@@ -57,6 +52,12 @@ header p {
     margin: auto 12%;
     background: rgb(255, 183, 155);
     border: 5px outset;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 .top-nav-ul {
