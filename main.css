@@ -15,7 +15,7 @@ body {
 /* HEADER */
 
 header {
-    margin: 3% 12% 1%;
+    margin: 3% 12% 3%;
     color: #4a4777;
     font-family: 'Libre Baskerville', serif;
 }
@@ -330,12 +330,21 @@ footer {
     }
 }
 
+@media all and (max-width: 440px) and (min-width: 421px) {
+    header h1 {
+        font-size: 38px;
+    }
+}
+
 @media all and (max-width: 420px) {
     body {
         font-size: 16px;
     }
     header {
         margin: 7% auto;
+    }
+    header h1 {
+        font-size: 2em;
     }
     .flex-div,
     .flex-div-skills {
