@@ -15,15 +15,23 @@ body {
 /* HEADER */
 
 header {
-    margin: 3% 12% 3%;
-    color: #4a4777;
+    margin: 1% 12%;
     font-family: 'Libre Baskerville', serif;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 48px;
-    text-shadow: 3px 3px 3px lavenderblush;
+.hero {
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 4, 4, 0.45), rgba(4, 4, 4, 0.45)), url("sunset.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-text {
+    margin: auto;
+    max-width: 900px;
+    padding: 120px 0;
+    color: white;
+    text-shadow: 0 0 3px #be41f4, 0px 0px 16px #41d6f4;
 }
 
 .hidden {
@@ -255,6 +263,9 @@ footer {
         display: flex;
         width: 80%;
     }
+    header {
+        margin: 1% 6%;
+    }
     .top-nav,
     main {
         margin: auto 6%;
@@ -342,7 +353,7 @@ footer {
         font-size: 16px;
     }
     header {
-        margin: 7% auto;
+        margin: 0 auto;
     }
     header h1 {
         font-size: 2em;
