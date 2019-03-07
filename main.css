@@ -14,11 +14,6 @@ body {
 
 /* CONTACT NAV */
 
-
-/* .contact-nav {
-    background: unset;
-} */
-
 .top-icons {
     padding-left: 0;
     cursor: default;
@@ -26,6 +21,7 @@ body {
 }
 
 .top-icon {
+    text-decoration: none;
     color: white;
     text-shadow: 0 0 3px #be41f4, 0px 0px 16px #41d6f4;
     display: inline-block;
@@ -35,7 +31,6 @@ body {
 
 .top-icon:hover,
 .email:hover {
-    text-decoration: underline;
     color: coral;
 }
 
