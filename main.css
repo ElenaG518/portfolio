@@ -12,6 +12,34 @@ body {
 }
 
 
+/* CONTACT NAV */
+
+
+/* .contact-nav {
+    background: unset;
+} */
+
+.top-icons {
+    padding-left: 0;
+    cursor: default;
+    list-style: none;
+}
+
+.top-icon {
+    color: white;
+    text-shadow: 0 0 3px #be41f4, 0px 0px 16px #41d6f4;
+    display: inline-block;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.top-icon:hover,
+.email:hover {
+    text-decoration: underline;
+    color: coral;
+}
+
+
 /* HEADER */
 
 header {
@@ -29,7 +57,7 @@ header {
 .header-text {
     margin: auto;
     max-width: 900px;
-    padding: 120px 0;
+    padding: 95px 0;
     color: white;
     text-shadow: 0 0 3px #be41f4, 0px 0px 16px #41d6f4;
 }
