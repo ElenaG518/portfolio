@@ -65,14 +65,16 @@ header {
     display: none;
 }
 
+.show-flex {
+    display: flex;
+}
+
 .top-nav {
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
-    background: rgb(255, 183, 155);
     font-family: 'Quattrocento', serif;
     z-index: 10;
     margin: auto 12%;
-    padding: 10px 0;
 }
 
 .sticky {
@@ -81,8 +83,21 @@ header {
     top: 0;
 }
 
+.other {
+    /* display: none; */
+    background: black;
+    color: whitesmoke;
+    text-align: right;
+    padding: 0 10px;
+    /* display: flex; */
+    justify-content: flex-end;
+    list-style: none;
+}
+
 .top-nav-ul {
-    padding-left: 0;
+    background: rgb(255, 183, 155);
+    /* padding-left: 0; */
+    padding: 10px 0;
     display: flex;
     justify-content: space-evenly;
     list-style: none;
