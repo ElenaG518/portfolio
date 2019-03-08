@@ -266,10 +266,6 @@ footer {
     color: #4a4777;
 }
 
-.mail {
-    vertical-align: middle;
-}
-
 .icon:hover,
 .email:hover {
     text-decoration: underline;
