@@ -4,7 +4,7 @@ List of projects I created during the course of full stack developer at Thinkful
 ## Home Page 
 
 
-![](https://github.com/ElenaG518/portfolio/blob/master/images/landing.png)  
+![](https://github.com/ElenaG518/portfolio/blob/master/images/homepage.png)  
 
 ## Live Link
 You can access a working prototype of the app here: https://elenag518.github.io/portfolio/
