@@ -357,7 +357,8 @@ footer {
 
 @media all and (max-width: 885px) {
     .border,
-    .flex-div-ul {
+    .flex-div-ul,
+    .web-dev {
         border: 0;
     }
     .sec-title {
@@ -368,7 +369,8 @@ footer {
         margin-top: 6%;
         flex: 1 1 100%;
     }
-    .border {
+    .border,
+    .web-dev {
         flex: 1 1 100%;
         margin-top: 25px;
     }
@@ -377,10 +379,6 @@ footer {
 @media all and (max-width: 800px) {
     .flex-div-ul {
         font-size: 80%;
-    }
-    .border,
-    .flex-div-ul {
-        border: 0;
     }
 }
 
