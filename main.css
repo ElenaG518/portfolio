@@ -415,13 +415,19 @@ footer {
     }
 }
 
+@media all and (max-width: 620px) and (min-width:490px) {
+    .webdev-link-img {
+        max-width: 400px;
+    }
+}
+
 @media all and (max-width: 490px) {
     .flex-div {
         flex: 1 1 90%;
     }
 
     .webdev-link-img {
-        max-width: 300px;
+        max-width: 380px;
     }
 }
 
@@ -455,6 +461,10 @@ footer {
     .intro h2 {
         font-size: 17px;
     }
+
+    .webdev-link-img {
+        max-width: 380px;
+    }
 }
 
 @media all and (max-width: 320px) {
@@ -466,5 +476,9 @@ footer {
     }
     .top-nav-ul a:hover {
         padding: 6px 9px;
+    }
+
+    .webdev-link-img {
+        max-width: 280px;
     }
 }
