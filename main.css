@@ -427,7 +427,17 @@ footer {
     }
 
     .webdev-link-img {
-        max-width: 380px;
+        max-width: 400px;
+    }
+}
+
+@media all and (max-width: 489px) and (min-width: 421px) {
+    header h1 {
+        font-size: 38px;
+    }
+
+    .webdev-link-img {
+        max-width: 340px;
     }
 }
 
@@ -467,6 +477,12 @@ footer {
     }
 }
 
+@media all and (max-width: 419px) {
+    .webdev-link-img {
+        max-width: 280px;
+    }
+}
+
 @media all and (max-width: 320px) {
     .top-nav-ul li {
         padding: 4px 0;
@@ -476,9 +492,5 @@ footer {
     }
     .top-nav-ul a:hover {
         padding: 6px 9px;
-    }
-
-    .webdev-link-img {
-        max-width: 280px;
     }
 }
