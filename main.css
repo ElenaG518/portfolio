@@ -411,11 +411,19 @@ footer {
     .top-nav-ul a:hover {
         padding: 13px 9px;
     }
+
+    .project-skills-list {
+        flex-direction: column;
+    }
 }
 
 @media all and (max-width: 490px) {
     .flex-div {
         flex: 1 1 90%;
+    }
+
+    .webdev-link-img {
+        max-width: 300px;
     }
 }
 
