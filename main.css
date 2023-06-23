@@ -8,7 +8,7 @@ body {
     font-size: 16px;
     text-align: center;
     line-height: 1.5;
-    background: #f1f4f9;
+    background: #ffffff;
 }
 
 
@@ -31,14 +31,14 @@ body {
 
 .top-icon:hover,
 .email:hover {
-    color: coral;
+    color: rgb(151, 252, 255);
 }
 
 
 /* HEADER */
 
 header {
-    margin: 1% 12%;
+    margin: 0;
     font-family: 'Libre Baskerville', serif;
 }
 
@@ -59,6 +59,11 @@ header {
 
 .header-text h1 {
     margin: 0;
+    font-size: 2.5em;
+}
+
+.header-text h1:hover {    
+    text-shadow: 0 0 5px #be41f4, 0px 0px 16px #41d6f4;
 }
 
 .hidden {
@@ -74,7 +79,7 @@ header {
     border-bottom: 1px solid lightgray;
     font-family: 'Quattrocento', serif;
     z-index: 10;
-    margin: auto 12%;
+    margin: auto  0;
 }
 
 .sticky {
@@ -84,19 +89,16 @@ header {
 }
 
 .other {
-    /* display: none; */
     background: black;
     color: whitesmoke;
     text-align: right;
     padding: 0 10px;
-    /* display: flex; */
     justify-content: flex-end;
     list-style: none;
 }
 
 .top-nav-ul {
     background: rgb(255, 183, 155);
-    /* padding-left: 0; */
     padding: 10px 0;
     display: flex;
     justify-content: space-evenly;
@@ -130,7 +132,6 @@ main {
 /* sections */
 
 section {
-    background: white;
     border-bottom: 1px solid lightgray;
     min-height: 200px;
     padding: 12% 3% 6%;
@@ -139,7 +140,6 @@ section {
 .container,
 .skills-container {
     display: flex;
-    /* justify-content: baseline; */
 }
 
 .sec-title {
@@ -340,10 +340,6 @@ footer {
         display: flex;
         width: 80%;
     }
-    header {
-        margin: 1% 6%;
-    }
-    .top-nav,
     main {
         margin: auto 6%;
     }
@@ -388,7 +384,6 @@ footer {
     }
     header h1 {
         font-size: 2em;
-        /* padding-top: 30px; */
     }
     .skills-container {
         justify-content: center;
